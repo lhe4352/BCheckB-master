@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffdc46"
+    android:gravity="center">
+
+    <TextView
+        android:textStyle="bold"
+        android:text="제목"
+        android:id="@+id/region_uniqueID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:text="상태"
+        android:id="@+id/region_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginBottom="20dp" />
+    <TextView
+        android:background="#ffffff"
+        android:text="시간"
+        android:id="@+id/region_update_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:text="결과"
+        android:id="@+id/region_beacon_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textColor="#ff0000"
+        android:gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/okButton"
+        android:background="@drawable/rounded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="20dp"/>
+
+</LinearLayout>
